@@ -1,0 +1,76 @@
+html, body {
+    margin: 0;
+}
+
+header {
+    color: white;
+    background-color: chocolate;
+    font-family: 'Segoe UI', Tahoma;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+#carouselExampleIndicators {
+    width: 60%;
+    margin: 1rem auto;
+}
+
+.formRedux {
+    width: 50%;
+    margin: 1rem auto;
+}
+
+form {
+    margin: 1rem auto;
+}
+
+.figura01 {
+    display: block;
+    text-align: center;
+    width: 30rem;
+    margin: 0.5rem auto;
+}
+
+.card-columns {
+    margin: 0.5rem auto;
+}
+
+.card-deck {
+    margin: 0.5rem auto;
+}
+
+main {
+    display: flex;
+    width: 100%;
+}
+
+.desenvolvedor {
+    width: 28rem;
+}
+
+table {
+    margin-top: 0.3rem;
+}
+td {
+    width: 50%;
+}
+
+footer {
+    clear: both;
+}
+
+.footer1 {
+    color: white;
+    background-color: chocolate;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    padding: 0.5rem;
+}
+
+.footer2 {
+    color: white;
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 0.5rem;
+}

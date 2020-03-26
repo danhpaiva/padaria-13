@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Desenvolvido por Daniel Paiva-->
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Padaria Paiva & Pães</title>
+    <link rel="stylesheet" href="./src/pratica13exercicio01.css">
+    <script src="./src/pratica13exercicio01.js"></script>
+    <script src="https://kit.fontawesome.com/70cfaef43a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- Início do Header -->
+    <header>
+        <h1>Contato</h1>
+    </header>
+    <!-- Fim do Header -->
+
+    <!-- Início da NavBar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <!-- Só uma imagem -->
+        <nav class="navbar navbar-dark bg-dark">
+            <a class="navbar-brand" href="pratica13exercicio01.html">
+                <img src="./img/pao.png" width="30" height="30" alt="">
+            </a>
+        </nav>
+        <!-- Fim da imagem -->
+        
+        <a class=" navbar-brand " href="pratica13exercicio01.html ">Paiva & Pães</a>
+        <button class="navbar-toggler " type="button " data-toggle="collapse " data-target="#conteudoNavbarSuportado "
+            aria-controls="conteudoNavbarSuportado " aria-expanded="false " aria-label="Alterna navegação ">
+            <span class="navbar-toggler-icon "></span>
+        </button>
+
+        <div class="collapse navbar-collapse " id="conteudoNavbarSuportado ">
+            <ul class="navbar-nav mr-auto ">
+                <li class="nav-item active ">
+                    <a class="nav-link " href="produto.html "> Produtos <span class="sr-only ">(página atual)</span></a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link " href="promocao.html "> Promoções </a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link " href="depoimento.html"> Depoimentos </a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link " href="contato.html"> Contato </a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link " href="desenvolvedor.html"> Desenvoldedor </a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0 m-0">
+                <input class="form-control mr-sm-2 " type="search " placeholder="Pesquisar " aria-label="Pesquisar ">
+                <button class="btn btn-outline-success my-2 my-sm-0 " type="submit ">Pesquisar</button>
+            </form>
+        </div>
+    </nav>
+    <!-- Fim da NavBar -->
+
+    <!-- Início do Form -->
+
+    <div class="formRedux">
+        <form>
+            <div class="form-group">
+                <label for="exampleFormControlInput1"> Digite seu e-mail </label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlSelect1"> Selecione um campo </label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                    <option> Elogio </option>
+                    <option> Crítica </option>
+                    <option> Orçamentos </option>
+                    <option> Outros </option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1"> Digite sua mensagem </label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+
+            <!--- Botão em Modal -->
+
+            <button onclick="email ()" type="button" class="btn btn-primary" data-toggle="modal"
+                data-target="#modalPaiva">
+                Enviar
+            </button>
+
+            <!-- Modal Paiva -->
+            <div class="modal fade" id="modalPaiva" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel"> Dados enviados com sucesso! </h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p id="resposta"></p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"> Okay! </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Fim do Modal -->
+
+        </form>
+    </div>
+
+    <!-- Fim do Form -->
+
+    <!-- Início do Rodapé -->
+    <footer>
+        <div class="footer1 ">
+            <h5> Padaria Paiva & Pães </h5>
+            <h6>Av. Afonso Pena, n° 777, Centro, Belo Horizonte/MG, CEP: 31990-777</h6>
+            <h6><i class="fas fa-phone-volume "></i> 31 3434-3434 &nbsp;&nbsp;&nbsp; <i class="fab fa-instagram "></i>
+                Instagram </h6>
+
+        </div>
+        <div class="footer2 ">Copyright © danpaiva@live.com</div>
+    </footer>
+    <!-- Fim do Rodapé -->
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js "
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo "
+        crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js "
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49 "
+        crossorigin="anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js "
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy "
+        crossorigin="anonymous "></script>
+</body>
+
+</html>
