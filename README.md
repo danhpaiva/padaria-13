@@ -4,10 +4,10 @@
 
 Este foi um projeto desenvolvido para simular um site de uma padaria utilizando o FrameWork Bootstrap.
 
-Tecnologias envolvidas: Bootstrap (Html, CSS, JavaScript).
+* Tecnologias envolvidas: Bootstrap (Html, CSS, JavaScript).
 
 ----------------------------------------------------------
 
 This was a project developed to simulate a bakery website using FrameWork Bootstrap.
 
-Technologies involved: Bootstrap (Html, CSS, JavaScript).
+* Technologies involved: Bootstrap (Html, CSS, JavaScript).
