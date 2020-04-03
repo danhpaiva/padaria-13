@@ -1,6 +1,8 @@
 # Projeto Site Padaria / Bakery Website Project
 
-[Site Padaria](https://i.imgur.com/BLMkh5q.png)
+<p align="center">
+  <img width="1000" height="500" src="https://i.imgur.com/BLMkh5q.png">
+</p>
 
 Este foi um projeto desenvolvido para simular um site de uma padaria utilizando o FrameWork Bootstrap.
 
