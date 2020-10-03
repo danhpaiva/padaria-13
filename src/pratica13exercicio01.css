@@ -54,23 +54,42 @@ table {
 td {
     width: 50%;
 }
-
-footer {
-    clear: both;
-}
-
-.footer1 {
-    color: white;
-    background-color: chocolate;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: justify;
-    padding: 0.5rem;
-}
-
-.footer2 {
-    color: white;
-    background-color: black;
-    font-family: 'Times New Roman', Times, serif;
+.footer {
     text-align: center;
-    padding: 0.5rem;
+    padding: 12px 0 40px !important;
+    color: #999;
+    background-color: #1f1f1f;
 }
+.footer-company-name a:hover{
+	color: #cccccc;
+}
+.footer-data-person{
+    margin-left: calc(100% - 65%);
+}
+.footer-data-person > td{
+   padding-left: 12px;
+}
+
+@keyframes bounce {
+    0%, 20%, 60%, 100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+    40% {
+      -webkit-transform: translateY(-20px);
+      transform: translateY(-20%);
+    }
+    80% {
+      -webkit-transform: translateY(-10px);
+      transform: translateY(-10%);
+    }
+  }
+  .instagram:hover{
+    animation: bounce 1s;
+  }
+  .linkedin:hover{
+    animation: bounce 1s;
+  }
+  .github:hover{
+    animation: bounce 1s;
+  }
