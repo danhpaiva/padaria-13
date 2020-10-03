@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Desenvolvido por Daniel Paiva-->
+    
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="./img/pao.png" type="image/x-icon" />
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
@@ -19,15 +22,9 @@
 </head>
 
 <body>
-
-    <!-- Início do Header -->
-    <header>
-        <h1>Bem vindo</h1>
-    </header>
-    <!-- Fim do Header -->
-
     <!-- Início da NavBar-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
         <!-- Só uma imagem -->
         <nav class="navbar navbar-dark bg-dark">
             <a class="navbar-brand" href="pratica13exercicio01.html">
@@ -35,29 +32,27 @@
             </a>
         </nav>
         <!-- Fim da imagem -->
-
-        <a class=" navbar-brand " href="pratica13exercicio01.html ">Paiva & Pães</a>
+        <a class=" navbar-brand " href="index.html">Paiva & Pães</a>
         <button class="navbar-toggler " type="button " data-toggle="collapse " data-target="#conteudoNavbarSuportado "
             aria-controls="conteudoNavbarSuportado " aria-expanded="false " aria-label="Alterna navegação ">
             <span class="navbar-toggler-icon "></span>
         </button>
-
         <div class="collapse navbar-collapse " id="conteudoNavbarSuportado ">
             <ul class="navbar-nav mr-auto ">
                 <li class="nav-item active ">
-                    <a class="nav-link " href="produto.html "> Produtos <span class="sr-only ">(página atual)</span></a>
+                    <a class="nav-link " href="./pages/product.html "> Produtos <span class="sr-only ">(página atual)</span></a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link " href="promocao.html "> Promoções </a>
+                    <a class="nav-link " href="./pages/promotion.html "> Promoções </a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link " href="depoimento.html"> Depoimentos </a>
+                    <a class="nav-link " href="./pages/testimony.html"> Depoimentos </a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link " href="contato.html"> Contato </a>
+                    <a class="nav-link " href="./pages/contact.html"> Contato </a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link " href="desenvolvedor.html"> Desenvoldedor </a>
+                    <a class="nav-link " href="./pages/developer.html"> Desenvoldedor </a>
                 </li>
             </ul>
             <form class="form-inline my-2 my-sm-0 m-0">
@@ -69,7 +64,6 @@
     <!-- Fim da NavBar -->
 
     <!-- Início do Carrosel -->
-
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -96,19 +90,28 @@
             <span class="sr-only">Próximo</span>
         </a>
     </div>
-
     <!-- Fim do Carrosel -->
 
     <!-- Início do Rodapé -->
     <footer>
-        <div class="footer1 ">
+        <div class="footer">
             <h5> Padaria Paiva & Pães </h5>
             <h6>Av. Afonso Pena, n° 777, Centro, Belo Horizonte/MG, CEP: 31990-777</h6>
-            <h6><i class="fas fa-phone-volume "></i> 31 3434-3434 &nbsp;&nbsp;&nbsp; <i class="fab fa-instagram "></i>
-                Instagram </h6>
+            <table class="footer-data-person">
+                <tr>
+                    <td>Tel: (31) 3434-3434</td>
+                    <td>E-mail: danpaiva@live.com</td>
+                </tr>
+            </table>
+            <p class="footer-company-name">Todos os direitos reservados. &copy; 2020 <a href="#">Dan Paiva</a>
 
+                <a href="#" onClick="window.open('#'); return false;"> <img src="./img/instagram.png" alt=""
+                        class="fa fa-instagram fa-2x, instagram"></a>
+                <a href="#" onClick="window.open('#'); return false;"> <img src="./img/linkedin.png" alt=""
+                        class="fa fa-linkedin fa-2x, linkedin"></a>
+                <a href="#" onClick="window.open('#'); return false;"> <img src="./img/github.png" alt=""
+                        class="fa fa-github fa-2x, github"></a>
         </div>
-        <div class="footer2 ">Copyright © danpaiva@live.com</div>
     </footer>
     <!-- Fim do Rodapé -->
 
