@@ -4,14 +4,14 @@
   <img width="700" src="https://i.imgur.com/GCSA1si.png">
 </p>
 
-#### Este foi um projeto desenvolvido na universidade para simular um site de uma padaria utilizando o FrameWork Bootstrap.
+## Descrição
 
-* Tecnologias envolvidas: Bootstrap (Html, CSS, JavaScript).
+Este foi um projeto desenvolvido na universidade para simular um site de uma padaria utilizando o FrameWork Bootstrap.
 
-----------------------------------------------------------
+## Ferramentas Utilizadas
 
-# Bakery Website Project
+- Bootstrap (Html, CSS, JavaScript)
 
-#### This was a project developed at the university to simulate a bakery website using FrameWork Bootstrap.
+## Licença
 
-* Technologies involved: Bootstrap (Html, CSS, JavaScript).
+Desenvolvido por Daniel Paiva
